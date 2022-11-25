@@ -19,7 +19,7 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
 
 setup(
     author="Horatiu Bota",
-    # author_email='',
+    author_email="52171232+horatiubota@users.noreply.github.com",
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
@@ -38,7 +38,7 @@ setup(
     packages=find_packages(include=["src"]),
     python_requires=">=3.8",
     tests_require=test_requirements,
-    # url='',
+    url="https://github.com/horatiubota/pgdrive",
     version="0.0.0",
     zip_safe=False,
 )

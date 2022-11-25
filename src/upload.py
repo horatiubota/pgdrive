@@ -8,7 +8,7 @@ from .service import PandasGoogleDriveException, create
 from .write import create_folders
 
 
-def upload(local_path: Union[str, Path], drive_path: str) -> str:
+def upload_file(local_path: Union[str, Path], drive_path: str) -> str:
     """
     Uploads file to Google Drive.
 
