@@ -24,7 +24,7 @@ or if you are using `conda` to manage your environment:
 
 # Usage
 
-Make sure the files you want to read or write are shared with the service account. You can share a file with the service account by going to the file's sharing settings on the Google Drive web app and adding the service account's email address as a collaborator. If you want to share multiple files, you can share an entire folder or drive with the service account.
+Make sure the files you want to read (or folders you want to write to) are shared with the service account. You can share a file with the service account by going to the file's sharing settings on the Google Drive web app and adding the service account's email address as a collaborator. If you want to share multiple files, you can share an entire folder or drive with the service account.
 
 
 ```python
