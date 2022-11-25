@@ -8,7 +8,6 @@ from setuptools import find_packages, setup
 requirements = [
     "pandas>=1.0",
     "google-api-python-client>=2.0",
-    "joblib>=1.0",
     "openpyxl>=3.0",
 ]
 test_requirements = ["pytest"]
