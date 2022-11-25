@@ -1,5 +1,5 @@
 
-This package provides a simple interface to Google Drive API v3. It allows you to read and write Google Drive files to and from pandas DataFrames.
+This package provides a simple interface to Google Drive API v3. It allows you to read and write Google Drive files containing tabular data (csv, xlsx, Google Spreadsheets) to and from pandas DataFrames.
 
 Needs a GCP IAM Service account to work. See https://cloud.google.com/iam/docs/creating-managing-service-accounts for more information.
 
