@@ -35,10 +35,9 @@ setup(
     include_package_data=True,
     keywords="pandas,google,drive",
     name="pgdrive",
-    packages=find_packages(include=["src"]),
+    packages=find_packages(include=["pgdrive"]),
     python_requires=">=3.8",
     tests_require=test_requirements,
     url="https://github.com/horatiubota/pgdrive",
     version="0.0.0",
-    zip_safe=False,
 )

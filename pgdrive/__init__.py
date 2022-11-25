@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 __author__ = "Horatiu Bota"
 __email__ = "52171232+horatiubota@users.noreply.github.com"
 __version__ = "0.0.0"
