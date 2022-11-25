@@ -1,7 +1,7 @@
 
 This package provides a simple interface to Google Drive API v3. It allows you to read and write Google Drive files to and from pandas DataFrames.
 
-Needs a GCP IAM Service account to work. See https://cloud.google.com/iam/docs/creating-managing-service-accounts for more information. Ask your Cloud Admin to create a service account for you and provide you with a JSON key.
+Needs a GCP IAM Service account to work. See https://cloud.google.com/iam/docs/creating-managing-service-accounts for more information.
 
 
 # Installation
@@ -27,7 +27,7 @@ or if you are using `conda` to manage your environment:
 Make sure the files you want to read or write are shared with the service account. You can share a file with the service account by going to the file's sharing settings on the Google Drive web app and adding the service account's email address as a collaborator. If you want to share multiple files, you can share an entire folder or drive with the service account.
 
 
-```
+```python
 import pgdrive
 
 # read a file by url copied from the browsers address bar
